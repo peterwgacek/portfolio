@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Regular;
+  src: url(./assets/ChicagoFLF.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+root {
+  --primary-grey: #707070;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Regular';
+  background-color: var(--primary-grey)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*********** NAVBAR ***********/
+.logo {
+  width: 16.25rem;
 }
 
-.App-link {
-  color: #61dafb;
+/**** MENU LINKS  ****/
+
+nav a.nav-link {
+  font-weight: 500;
+  font-size: .8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-family: Regular;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav>li>a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
 }
