@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Portfolio Project</h1>
+
     </div>
   );
 }
