@@ -7,11 +7,11 @@
   --primary-grey: #707070;
   --primary-gold: #FFE656;
   --primary-light: #F8F9FA;
-
+  --primary-font: Regular;
 }
 
 body {
-  font-family: 'Regular';
+  font-family: var(--primary-font);
   background-color: var(--primary-grey)
 }
 
@@ -20,26 +20,23 @@ body {
   width: 100px;
 }
 
-/**** MENU LINKS  ****/
-
 nav a.nav-link {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.6px;
   cursor: pointer;
-  font-family: Regular;
+  font-family: var(--primary-font);
 }
 
 .navbar-nav>li>a {
   margin-right: 12px;
-  margin-left: 12px;
   border-top: 3px solid var(--primary-light);
 }
 
 .navbar-brand {
   max-width: 275px;
   padding: 0 !important;
-  height: 95px !important;
+  height: 45px !important;
 }
 
 .navbar-nav>li>a.active,
@@ -50,3 +47,33 @@ nav a.nav-link {
 .navbar-nav>li>a:hover {
   border-top: 3px solid var(--primary-gold);
 }
+
+
+/*********** HEADER ***********/
+
+
+
+.header-wrapper {
+  position: relative;
+  background: url(Wallpaper-tile.png) repeat;
+  background-size: 4px;
+  background-position: center;
+  height: 90vh;
+  font-family: var(--primary-font);
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1,
+h2 {
+  color: var(--primary-grey);
+  background-color: white;
+}
+
+/*********** FOOTER ***********/
