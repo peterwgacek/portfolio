@@ -3,8 +3,11 @@
   src: url(./assets/ChicagoFLF.ttf);
 }
 
-root {
+:root {
   --primary-grey: #707070;
+  --primary-gold: #FFE656;
+  --primary-light: #F8F9FA;
+
 }
 
 body {
@@ -14,26 +17,36 @@ body {
 
 /*********** NAVBAR ***********/
 .logo {
-  width: 16.25rem;
+  width: 100px;
 }
 
 /**** MENU LINKS  ****/
 
 nav a.nav-link {
   font-weight: 500;
-  font-size: .8rem;
-  letter-spacing: 0.0375rem;
+  font-size: 14px;
+  letter-spacing: 0.6px;
   cursor: pointer;
   font-family: Regular;
 }
 
 .navbar-nav>li>a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-top: 3px solid var(--primary-light);
 }
 
 .navbar-brand {
-  max-width: 17.25rem;
+  max-width: 275px;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 95px !important;
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a.active:focus {
+  border-top: 3px solid var(--primary-gold);
+}
+
+.navbar-nav>li>a:hover {
+  border-top: 3px solid var(--primary-gold);
 }
