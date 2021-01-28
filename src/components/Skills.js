@@ -25,56 +25,64 @@ import procreatelogo from '../assets/logos/procreatelogo.png'
 const Skills = () => {
     return (
         <div className='skills'>
-            <div className='py-5'>
-                <div className='container'>
-                    <h1>Skills: </h1>
-                    <div className='row'>
-                        <div className='col-md-4 col-sm-'>
-                            <div className='box'>
-                                <img className="skillslogo" src={html5logo} />
-                                <p>HTML5</p>
-                                <img className="skillslogo" src={css3logo} />
-                                <p>CSS3</p>
-                                <img className="skillslogo" src={jslogo} />
-                                <p>JS</p>
-                                <img className="skillslogo" src={rubylogo} />
-                                <p>Ruby</p>
-                            </div>
+            <h1 className='py-5'>Skills</h1>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-md-3 col-sm-8'>
+                        <div className='box'>
+                            <img className='skillslogo' src={html5logo} />
+                            <p>HTML5</p>
+                            <img className='skillslogo' src={css3logo} />
+                            <p>CSS3</p>
+                            <img className='skillslogo' src={jslogo} />
+                            <p>JS</p>
+                            <img className='skillslogo' src={rubylogo} />
+                            <p>Ruby</p>
+                        </div>
+                    </div>
 
-                            <div className='box'>
-                                <img className="skillslogo" src={reactlogo} />
-                                <p>React</p>
-                                <img className="skillslogo" src={reduxlogo} />
-                                <p>Redux</p>
-                                <img className="skillslogo" src={npmlogo} />
-                                <p>Npm</p>
-                                <img className="skillslogo" src={nodelogo} />
-                                <p>Node.js</p>
-                            </div>
+                    <div className='col-md-3 col-sm-8'>
+                        <div className='box'>
+                            <img className='skillslogo' src={reactlogo} />
+                            <p>React</p>
+                            <img className='skillslogo' src={reduxlogo} />
+                            <p>Redux</p>
+                            <img className='skillslogo' src={npmlogo} />
+                            <p>Npm</p>
+                            <img className='skillslogo' src={nodelogo} />
+                            <p>Node.js</p>
+                        </div>
+                    </div>
 
-                            <div className='box'>
-                                <img className="skillslogo" src={sqllogo} />
-                                <p>SQL</p>
-                                <img className="skillslogo" src={railslogo} />
-                                <p>Ruby on Rails</p>
-                                <img className="skillslogo" src={postgreslogo} />
-                                <p>PostgreSQL</p>
-                                <img className="skillslogo" src={mongologo} />
-                                <p>MongoDB</p>
-                            </div>
+                    <div className='col-md-3 col-sm-8'>
+                        <div className='box'>
+                            <img className='skillslogo' src={sqllogo} />
+                            <p>SQL</p>
+                            <img className='skillslogo' src={railslogo} />
+                            <p>Ruby on Rails</p>
+                            <img className='skillslogo' src={postgreslogo} />
+                            <p>PostgreSQL</p>
+                            <img className='skillslogo' src={mongologo} />
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
 
-                            <img className="skillslogo" src={gimplogo} />
+                    <div className='col-md-3 col-sm-8'>
+                        <div className='box'>
+                            <img className='skillslogo' src={gimplogo} />
                             <p>Gimp</p>
-                            <img className="skillslogo" src={pslogo} />
+                            <img className='skillslogo' src={pslogo} />
                             <p>Photoshop</p>
-                            <img className="skillslogo" src={procreatelogo} />
+                            <img className='skillslogo' src={procreatelogo} />
                             <p>Procreate</p>
 
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div >
+        </div>
+
     )
 }
 
