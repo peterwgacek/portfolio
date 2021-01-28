@@ -17,13 +17,15 @@
 }
 
 body {
-  font-family: var(--primary-font);
-  background-color: var(--primary-grey)
+  font-family: var(--primary-font) !important;
+  background-color: var(--primary-light) !important;
+  color: var(--primary-grey);
 }
 
 /*********** NAVBAR ***********/
 .logo {
   width: 100px;
+  display: flex;
 }
 
 nav a.nav-link {
@@ -58,9 +60,15 @@ nav a.nav-link {
 
 /*********** HEADER ***********/
 
+@media(max-width:768px) {
+  .main-info h1 {
+    font-size: 25px !important;
+  }
+}
+
 .header-wrapper {
   position: relative;
-  background: url(Wallpaper-tile.png) repeat;
+  background: url(./assets/Wallpaper-tile.png) repeat;
   background-size: 4px;
   background-position: center;
   height: 90vh;
@@ -103,5 +111,37 @@ h2 {
   transition: .2s ease-in-out;
 
 }
+
+/*********** ABOUT ME  ***********/
+
+@media(max-width:468px) {
+  .profile-img {
+    width: 160px;
+  }
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  border: 3px solid var(--primary-gold);
+}
+
+.about-header {
+  color: var(--primary-gold);
+}
+
+.about-text {
+  color: var(--primary-grey);
+}
+
+
+
+
 
 /*********** FOOTER ***********/
