@@ -25,7 +25,6 @@ body {
 /*********** NAVBAR ***********/
 .logo {
   width: 100px;
-  display: flex;
 }
 
 nav a.nav-link {
@@ -140,8 +139,14 @@ h2 {
   color: var(--primary-grey);
 }
 
+/*********** SKILLS  ***********/
 
+.skillslogo {
+  width: 200px;
+}
 
-
+.box {
+  display: flex;
+}
 
 /*********** FOOTER ***********/
