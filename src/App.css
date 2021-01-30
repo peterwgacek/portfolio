@@ -12,6 +12,11 @@
 :root {
   --primary-grey: #707070;
   --primary-gold: #FBB827;
+  --primary-green: #68BD4D;
+  --primary-orange: #F7A35C;
+  --primary-red: #E13A3E;
+  --primary-purple: #A151A1;
+  --primary-blue: #1B9EDB;
   --primary-light: #F8F9FA;
   --primary-ltgrey: #9C9C9D;
   --primary-font: Regular;
@@ -19,7 +24,7 @@
 
 body {
   font-family: var(--primary-font) !important;
-  background-color: var(--primary-light) !important;
+  background: var(--primary-light) !important;
   color: var(--primary-grey);
 }
 
@@ -34,6 +39,7 @@ nav a.nav-link {
   letter-spacing: 0.6px;
   cursor: pointer;
   font-family: var(--primary-font);
+
 }
 
 .navbar-nav>li>a {
@@ -49,11 +55,11 @@ nav a.nav-link {
 
 .navbar-nav>li>a.active,
 .navbar-nav>li>a.active:focus {
-  border-top: 3px solid var(--primary-gold);
+  border-top: 3px solid var(--primary-green);
 }
 
 .navbar-nav>li>a:hover {
-  border-top: 3px solid var(--primary-gold);
+  border-top: 3px solid var(--primary-green);
   transition: .2s ease-in-out;
 }
 
@@ -88,10 +94,15 @@ nav a.nav-link {
   bottom: 0;
 }
 
-.main-info h1,
-h2 {
+.main-info h1 {
+  color: var(--primary-gold);
+  background: var(--primary-light);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.main-info h2 {
   color: var(--primary-grey);
-  background-color: white;
+  background: var(--primary-light);
 }
 
 .btn-main-offer,
@@ -107,7 +118,7 @@ h2 {
 .btn-main-offer:hover,
 .resume:hover {
   text-decoration: none;
-  background-color: var(--primary-light);
+  background: var(--primary-light);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   color: var(--primary-grey);
   transition: .2s ease-in-out;
@@ -135,21 +146,42 @@ h2 {
 .profile-img {
   width: 16rem;
   border-radius: 50%;
-  border: 3px solid var(--primary-gold);
+  border: 3px solid var(--primary-orange);
 }
 
 .about-header {
-  color: var(--primary-gold);
+  color: var(--primary-orange);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
 }
 
 .about-text {
   color: var(--primary-grey);
 }
 
+.iglink {
+  color: var(--primary-orange);
+  font-size: 20px;
+
+}
+
+.iglink:hover {
+  text-decoration: none;
+
+  background: var(--primary-grey);
+  color: var(--primary-light);
+  transition: .2s ease-in-out;
+}
+
 /*********** SKILLS  ***********/
 
 .skillslogo {
   width: 100px;
+  height: 100px;
+}
+
+.skills h1 {
+  color: var(--primary-red);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
 }
 
 .skills {
@@ -160,7 +192,91 @@ h2 {
 
 }
 
+/*********** PROJECTS ***********/
 
 
+.projects-wrapper h1 {
+  color: var(--primary-purple);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+
+}
+
+.projects-wrapper {
+  background: var(--primary-light);
+  padding: 48px 0;
+}
+
+/* .project-image {
+  width: 300px;
+  height: 200px;
+  border: 3px solid var(--primary-purple);
+}
+
+.project-image-box {
+  position: relative;
+  margin: 16px;
+} */
+
+
+/*********** DESIGN ***********/
+
+.design-wrapper {
+  background: var(--primary-ltgrey);
+}
+
+.design-wrapper h1 {
+  color: var(--primary-blue);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.design-image {
+  width: 300px;
+  height: 250px;
+  border: 3px solid var(--primary-blue);
+}
+
+.design-image-box {
+  position: relative;
+  margin: 16px;
+}
+
+.fa-search-plus {
+  position: absolute;
+  opacity: 0;
+  margin-left: -175px;
+  margin-top: 100px;
+  font-size: 70px;
+  color: var(--primary-blue);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.design-image-box:hover .fa-search-plus {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/****** OVERFLOW ******/
+
+.overflow {
+  position: absolute;
+  opacity: 50%;
+  background: var(--primary-light);
+  width: 300px;
+  height: 250px;
+  top: 0;
+  border: 3px solid var(--primary-blue);
+  cursor: pointer;
+
+}
+
+.design-image-box:hover .overflow {
+  opacity: 0;
+  transition: 0.3s eae-in-out;
+}
+
+/*********** CONTACT ***********/
 
 /*********** FOOTER ***********/
