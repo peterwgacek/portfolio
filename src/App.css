@@ -256,8 +256,6 @@ nav a.nav-link {
   cursor: pointer;
 }
 
-
-
 /****** OVERFLOW ******/
 
 .overflow {
@@ -275,6 +273,18 @@ nav a.nav-link {
 .design-image-box:hover .overflow {
   opacity: 0;
   transition: 0.3s eae-in-out;
+}
+
+
+/****** POPUP BOX ******/
+
+.design-img-popup {
+  width: 575px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  padding: .8px;
+  margin: 0 auto;
 }
 
 /*********** CONTACT ***********/
