@@ -194,7 +194,7 @@ const Design = () => {
     const popupboxConfignutmilklabel = {
         titleBar: {
             enable: true,
-            text: 'Drunken Nut Milk Label'
+            text: ''
         },
         fadeIn: true,
         fadeInSpee: 500
