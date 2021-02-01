@@ -1,15 +1,14 @@
-import React from 'react'
-import curse from '../assets/projects/curse.png'
-import morementum from '../assets/projects/morementum.png'
-import marvelassemble from '../assets/projects/marvelassemble.png'
-import vogo from '../assets/projects/vogo.png'
-import genresmash from '../assets/projects/genresmash.png'
+import React from 'react';
+import ProjectsCarousel from './ProjectsCarousel';
 
 const Projects = () => {
     return (
-        <div className='projects-wrapper'>
-            <div className='container'>
-                <h1 className='text-center py-5'>Projects</h1>
+        <div className="projects">
+            <h1>Projects</h1>
+            <div className="container">
+                <div className="projects-content">
+                    <ProjectsCarousel />
+                </div>
             </div>
         </div>
 

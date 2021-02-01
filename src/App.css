@@ -193,27 +193,47 @@ nav a.nav-link {
 /*********** PROJECTS ***********/
 
 
-.projects-wrapper h1 {
+.projects h1,
+h3 {
   color: var(--primary-purple);
+  text-align: center;
   text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
-
 }
 
-.projects-wrapper {
+.projects {
   background: var(--primary-light);
   padding: 48px 0;
+  text-align: center;
+  padding-bottom: 64px;
 }
 
-/* .project-image {
-  width: 300px;
-  height: 200px;
-  border: 3px solid var(--primary-purple);
+
+.myCarousel {
+  background: var(--primary-light);
+  color: var(--primary-grey);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.project-image-box {
-  position: relative;
-  margin: 16px;
-} */
+.carousel .slide img {
+  height: 550px;
+  width: 600px;
+}
+
+.carousel .slide {
+  background: var(--primary-light);
+}
+
+.fa-link,
+.fa-github-square {
+  color: var(--primary-purple);
+  font-size: 40px;
+  margin: 10px;
+  padding-bottom: 20px;
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0
+}
+
+
 
 
 /*********** DESIGN ***********/
@@ -252,6 +272,19 @@ nav a.nav-link {
   opacity: 1;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.projects-contatiner {
+  background-color: var(--primary-light);
+}
+
+.carousel .control-dots {
+  color: var(--primary-purple);
+  /* background-color: var(--primary-light); */
+}
+
+.ul control-dots {
+  background: var(--primary-light);
 }
 
 /****** OVERFLOW ******/
