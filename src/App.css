@@ -113,7 +113,6 @@ nav a.nav-link {
   padding: 10px 12px 12px 12px;
   color: var(--primary-light);
   margin: 32px;
-  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0;
 }
 
 .btn-main-offer:hover,
@@ -370,17 +369,10 @@ h3 {
   background-size: 4px;
   background-position: center;
   height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
-
 
 .contact h1 {
   color: var(--primary-gold);
-  background-color: var(--primary-light);
   text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
 }
 
@@ -399,11 +391,10 @@ h3 {
   border: 0;
   border-bottom: 2px solid var(--primary-ltgrey);
   border-radius: 0;
-  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0;
   outline: 0 !important;
   box-shadow: none !important;
-  color: var(--primary-ltgrey);
-  margin-bottom: 32px;
+  color: var(--primary-light);
+  margin-bottom: 14px;
   padding-left: 0 !important;
 }
 
@@ -420,7 +411,17 @@ h3 {
 
 
 .contact textarea {
-  height: 150px !important;
+  height: 110px !important;
+}
+
+.error-message {
+  color: var(--primary-grey);
+  background-color: var(--primary-light);
+}
+
+.succes-message {
+  font-weight: 900;
+  color: var(--primary-light);
 }
 
 /*********** FOOTER ***********/
