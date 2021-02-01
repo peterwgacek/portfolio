@@ -113,6 +113,7 @@ nav a.nav-link {
   padding: 10px 12px 12px 12px;
   color: var(--primary-light);
   margin: 32px;
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0;
 }
 
 .btn-main-offer:hover,
@@ -122,6 +123,7 @@ nav a.nav-link {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   color: var(--primary-grey);
   transition: .2s ease-in-out;
+  text-shadow: none;
 }
 
 .links {
@@ -200,6 +202,8 @@ h3 {
   text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
 }
 
+.projects h1 {}
+
 .projects {
   background: var(--primary-light);
   padding: 48px 0;
@@ -274,9 +278,7 @@ h3 {
   cursor: pointer;
 }
 
-.projects-contatiner {
-  background-color: var(--primary-light);
-}
+
 
 .carousel .control-dots {
   color: var(--primary-purple);
@@ -349,10 +351,76 @@ h3 {
 }
 
 
-
-
-
-
 /*********** CONTACT ***********/
+
+@media(max-width: 768px) {
+  .contact .container {
+    padding: 0 16px;
+
+  }
+
+  .contact {
+    padding: 0
+  }
+}
+
+.contact {
+  position: relative;
+  background: url(./assets/Wallpaper-tile.png) repeat;
+  background-size: 4px;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.contact h1 {
+  color: var(--primary-gold);
+  background-color: var(--primary-light);
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.contact-btn {
+  background: none;
+  margin: 16px 0 0 0;
+  width: 100%;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--primary-ltgrey);
+  border-radius: 0;
+  text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0;
+  outline: 0 !important;
+  box-shadow: none !important;
+  color: var(--primary-ltgrey);
+  margin-bottom: 32px;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 64px 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background: transparent;
+  color: var(--primary-gold);
+  border-bottom: 2px solid var(--primary-gold);
+}
+
+
+.contact textarea {
+  height: 150px !important;
+}
 
 /*********** FOOTER ***********/
