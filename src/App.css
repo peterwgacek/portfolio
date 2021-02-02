@@ -165,7 +165,6 @@ nav a.nav-link {
 
 .iglink:hover {
   text-decoration: none;
-
   background: var(--primary-grey);
   color: var(--primary-light);
   transition: .2s ease-in-out;
@@ -193,7 +192,6 @@ nav a.nav-link {
 
 /*********** PROJECTS ***********/
 
-
 .projects h1,
 h3 {
   color: var(--primary-purple);
@@ -201,15 +199,12 @@ h3 {
   text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
 }
 
-.projects h1 {}
-
 .projects {
   background: var(--primary-light);
   padding: 48px 0;
   text-align: center;
   padding-bottom: 64px;
 }
-
 
 .myCarousel {
   background: var(--primary-light);
@@ -227,7 +222,7 @@ h3 {
   background: var(--primary-light);
 }
 
-.fa-link,
+.myCarousel .fa-link,
 .fa-github-square {
   color: var(--primary-purple);
   font-size: 40px;
@@ -425,3 +420,33 @@ h3 {
 }
 
 /*********** FOOTER ***********/
+
+.footer {
+  text-decoration: none;
+  background: var(--primary-light);
+  color: var(--primary-ltgrey);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-ltgrey);
+}
+
+.footer a:hover {
+  background: var(--primary-grey);
+  color: var(--primary-light);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.links {
+  font-size: 30px;
+}
+
+.links:hover {
+  background-color: transparent;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
