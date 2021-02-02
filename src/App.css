@@ -373,7 +373,8 @@ h3 {
 .contact h1 {
   color: var(--primary-gold);
   text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
-  padding-bottom: 100px;
+  padding-top: 100px;
+
 }
 
 .contact-btn {
@@ -396,9 +397,15 @@ h3 {
   color: var(--primary-light);
   margin-bottom: 14px;
   padding-left: 0 !important;
+
 }
 
-.contacts .container {
+.react-select__placeholder {
+  color: var(--primary-light);
+}
+
+
+.contact .container {
   padding: 64px 0;
 }
 
