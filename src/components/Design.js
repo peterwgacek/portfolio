@@ -214,57 +214,57 @@ const Design = () => {
                 <div className='image-box-wrapper row justify-content-center'>
 
                     <div className='design-image-box' onClick={openPopupboxIOU}>
-                        <img className='design-image' src={IOUXmascard} alt='IOUXmascard' />
+                        <img className='design-image' src={IOUXmascard} alt='IOU Xmas card' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxdoop}>
-                        <img className='design-image' src={cocodoop} alt='cocodoop' />
+                        <img className='design-image' src={cocodoop} alt='coco doop' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxbartrider}>
-                        <img className='design-image' src={bartrider} alt='bartrider' />
+                        <img className='design-image' src={bartrider} alt='bart rider' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
 
                     <div className='design-image-box' onClick={openPopupboxgenresmash}>
-                        <img className='design-image' src={genresmashlogo} alt='genresmash' />
+                        <img className='design-image' src={genresmashlogo} alt='genre smash logo' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
 
                     <div className='design-image-box' onClick={openPopupboxvogo}>
-                        <img className='design-image' src={vogologo} alt='vogologo' />
+                        <img className='design-image' src={vogologo} alt='vogo logo' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxmarvelassemble}>
-                        <img className='design-image' src={marvelassemblelogo} alt='marvelassemblelogo' />
+                        <img className='design-image' src={marvelassemblelogo} alt='marvel assemble logo' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxjurassicpong}>
-                        <img className='design-image' src={jurassicpong} alt='jurassicpong' />
+                        <img className='design-image' src={jurassicpong} alt='jurassic pong' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxmasterofnumbers}>
-                        <img className='design-image' src={masterofnumbers} alt='masterofnumbers' />
+                        <img className='design-image' src={masterofnumbers} alt='master of numbers' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>
 
                     <div className='design-image-box' onClick={openPopupboxnutmilklabel}>
-                        <img className='design-image' src={nutmilklabel} alt='nutmilklabel' />
+                        <img className='design-image' src={nutmilklabel} alt='nut milk label' />
                         <div className='overflow'></div>
                         <i class='fas fa-search-plus'></i>
                     </div>

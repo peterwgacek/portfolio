@@ -30,9 +30,9 @@ const Footer = () => {
                                 <Link smooth={true} to="contact" offset={-60} className="footer-nav">Contact</Link>
                             </div>
                             <div className="col">
-                                <a className="links" href="https://www.linkedin.com/in/peterwgacek/" target='_blank'><i class="fab fa-linkedin" ></i></a>
+                                <a className="links" href="https://www.linkedin.com/in/peterwgacek/" target='_blank' rel="noreferrer"><i class="fab fa-linkedin" ></i></a>
 
-                                <a className="links" href="https://github.com/peterwgacek" target='_blank'><i class="fab fa-github"></i></a>
+                                <a className="links" href="https://github.com/peterwgacek" target='_blank' rel="noreferrer"><i class="fab fa-github"></i></a>
                             </div>
 
                         </div>
