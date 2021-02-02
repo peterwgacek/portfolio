@@ -207,7 +207,7 @@ const Design = () => {
 
 
     return (
-        <div className='design-wrapper'>
+        <div id="design" className='design-wrapper'>
             <div className='container'>
                 <h1 className='text-center py-5'>Design</h1>
 
