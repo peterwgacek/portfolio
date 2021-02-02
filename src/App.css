@@ -430,6 +430,9 @@ h3 {
   text-decoration: none;
   background: var(--primary-light);
   color: var(--primary-ltgrey);
+  text-align: center;
+
+
 }
 
 .footer a {
@@ -444,16 +447,12 @@ h3 {
   cursor: pointer;
 }
 
-
-
 .links {
-  font-size: 30px;
+  font-size: 35px;
+  text-align: right;
+  padding: 0 5px 0 5px;
 }
 
 .links a:hover {
   background-color: none;
-}
-
-.footer p {
-  margin-bottom: 0;
 }

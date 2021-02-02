@@ -10,7 +10,7 @@ const Footer = () => {
                         Copyright&copy;
               {new Date().getFullYear()}&nbsp;Peter W Gacek
             </p>
-                    <div className="col-lg-3 col-md-2 col-sm-6">
+                    <div className="col-lg-5 col-md-6 col-sm-6">
                         <div className="row">
                             <div className="col">
                                 <Link smooth={true} to="home"
@@ -29,14 +29,14 @@ const Footer = () => {
                                 <br />
                                 <Link smooth={true} to="contact" offset={-60} className="footer-nav">Contact</Link>
                             </div>
+                            <div className="col">
+                                <a className="links" href="https://www.linkedin.com/in/peterwgacek/" target='_blank'><i class="fab fa-linkedin" ></i></a>
+
+                                <a className="links" href="https://github.com/peterwgacek" target='_blank'><i class="fab fa-github"></i></a>
+                            </div>
 
                         </div>
                     </div>
-
-                    <a className="links" href="https://www.linkedin.com/in/peterwgacek/" target='_blank'><i class="fab fa-linkedin" ></i></a>
-                    <a className="links" href="https://github.com/peterwgacek" target='_blank'><i class="fab fa-github"></i></a>
-
-
                 </div>
             </div>
         </div>

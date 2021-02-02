@@ -117,7 +117,7 @@ const Contact = () => {
                 name="description"
                 ref={
                   register({
-                    required: "Please describe shortly your project needs...",
+                    required: "Please include a message",
                   })
                 }
               ></textarea>
