@@ -3,12 +3,6 @@
   src: url(./assets/ChicagoFLF.ttf);
 }
 
-@media(max-width:768px) {
-  .main-info h1 {
-    font-size: 25px !important;
-  }
-}
-
 :root {
   --primary-grey: #707070;
   --primary-gold: #FBB827;
@@ -237,7 +231,6 @@ h3 {
 
 
 
-
 /*********** DESIGN ***********/
 
 .design-wrapper {
@@ -276,15 +269,13 @@ h3 {
   cursor: pointer;
 }
 
-
-
 .carousel .control-dots {
-  color: var(--primary-purple);
+  color: var(--primary-purple) !important;
   /* background-color: var(--primary-light); */
 }
 
 .ul control-dots {
-  background: var(--primary-light);
+  color: var(--primary-purple) !important;
 }
 
 /****** OVERFLOW ******/
@@ -394,16 +385,15 @@ h3 {
   border-radius: 0;
   outline: 0 !important;
   box-shadow: none !important;
-  color: var(--primary-light);
+  color: var(--primary-gold) !important;
   margin-bottom: 14px;
   padding-left: 0 !important;
 
 }
 
-.react-select__placeholder {
-  color: var(--primary-light);
+::placeholder {
+  color: var(--primary-light) !important;
 }
-
 
 .contact .container {
   padding: 64px 0;
@@ -454,7 +444,7 @@ h3 {
   cursor: pointer;
 }
 
-.links {
+.footer .links {
   font-size: 35px;
   text-align: right;
   padding: 0 5px 0 5px;
