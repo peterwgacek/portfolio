@@ -269,14 +269,13 @@ h3 {
   cursor: pointer;
 }
 
-.carousel .control-dots {
+.control-dots .button {
   color: var(--primary-purple) !important;
-  /* background-color: var(--primary-light); */
+
 }
 
-.ul control-dots {
-  color: var(--primary-purple) !important;
-}
+
+
 
 /****** OVERFLOW ******/
 
