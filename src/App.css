@@ -274,8 +274,9 @@ h3 {
 
 }
 
-.carousel-indicators li {
+.indicators {
   background: #ccc;
+  color: black;
 }
 
 .carousel-indicators .active {
