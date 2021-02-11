@@ -274,6 +274,13 @@ h3 {
 
 }
 
+.carousel-indicators li {
+  background: #ccc;
+}
+
+.carousel-indicators .active {
+  background: #666;
+}
 
 
 

@@ -23,6 +23,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "IOU Xmas Card",
+                },
+            },
+        });
     }
 
     const popupboxConfigIOU = {
@@ -42,6 +50,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Caco Doop Sketch",
+                },
+            },
+        });
     }
 
     const popupboxConfigdoop = {
@@ -62,6 +78,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Bart Rider Sketch",
+                },
+            },
+        });
     }
 
     const popupboxConfigbartrider = {
@@ -84,6 +108,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Genre Smash Logo",
+                },
+            },
+        });
     }
 
     const popupboxConfiggenresmash = {
@@ -105,6 +137,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "V.O. GO Logo",
+                },
+            },
+        });
     }
 
     const popupboxConfigvogo = {
@@ -126,6 +166,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Marvel Assemble Logo",
+                },
+            },
+        });
     }
 
     const popupboxConfigmarvelassemble = {
@@ -147,6 +195,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Jurassic Pong Screengrab",
+                },
+            },
+        });
     }
 
     const popupboxConfigjurassicpong = {
@@ -168,6 +224,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Master of Numbers Screengrab",
+                },
+            },
+        });
     }
 
     const popupboxConfigmasterofnumbers = {
@@ -189,6 +253,14 @@ const Design = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Drunken Nut Milk Label",
+                },
+            },
+        });
     }
 
     const popupboxConfignutmilklabel = {
