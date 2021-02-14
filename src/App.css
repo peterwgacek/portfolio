@@ -269,18 +269,41 @@ h3 {
   cursor: pointer;
 }
 
-.control-dots .button {
-  color: var(--primary-purple) !important;
+.control-dots>dot {
+  fill: var(--primary-purple) !important;
 
 }
 
-.indicators {
-  background: #ccc;
-  color: black;
+ul.control-dots {
+  fill: var(--primary-purple) !important;
 }
 
-.carousel-indicators .active {
-  background: #666;
+li.dot-selected {
+  fill: var(--primary-purple) !important;
+}
+
+.dot {
+  fill: var(--primary-purple) !important;
+}
+
+li.dot {
+  fill: var(--primary-purple) !important;
+}
+
+.carousel .control-dots .dot {
+  fill: var(--primary-purple) !important;
+}
+
+.carousel>.control-dots>.dot {
+  fill: var(--primary-purple) !important;
+}
+
+.control-dots {
+  fill: var(--primary-purple) !important;
+}
+
+.dots {
+  fill: var(--primary-purple) !important;
 }
 
 
