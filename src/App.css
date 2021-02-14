@@ -269,7 +269,7 @@ h3 {
   cursor: pointer;
 }
 
-.control-dots>dot {
+.control-dots>.dot {
   fill: var(--primary-purple) !important;
 
 }
@@ -294,11 +294,8 @@ li.dot {
   fill: var(--primary-purple) !important;
 }
 
-.carousel>.control-dots>.dot {
-  fill: var(--primary-purple) !important;
-}
 
-.control-dots {
+.carousel .control-dots {
   fill: var(--primary-purple) !important;
 }
 
