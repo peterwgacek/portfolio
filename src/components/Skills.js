@@ -1,4 +1,5 @@
 import React from 'react'
+import './Skills.css';
 //FRONT END
 import html5logo from '../assets/logos/html5logo.png'
 import css3logo from '../assets/logos/css3logo.png'
