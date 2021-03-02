@@ -1,0 +1,16 @@
+.skillslogo {
+    width: 100px;
+    height: 100px;
+}
+
+.skills h1 {
+    color: var(--primary-red);
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.skills {
+    text-align: center;
+    padding-bottom: 32px;
+    background: var(--primary-ltgrey);
+    color: var(--primary-light);
+}

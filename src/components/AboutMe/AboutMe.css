@@ -1,0 +1,37 @@
+@media(max-width:468px) {
+    .profile-img {
+        width: 500px;
+    }
+}
+
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    height: 400px;
+}
+
+.about-header {
+    color: var(--primary-orange);
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.about-text {
+    color: var(--primary-grey);
+}
+
+.iglink {
+    color: var(--primary-orange);
+    font-size: 20px;
+
+}
+
+.iglink:hover {
+    text-decoration: none;
+    background: var(--primary-grey);
+    color: var(--primary-light);
+    transition: .2s ease-in-out;
+}

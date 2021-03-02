@@ -121,7 +121,6 @@ nav a.nav-link {
 
 .links {
   margin-top: 40px;
-
 }
 
 /*********** ABOUT ME  ***********/
@@ -181,7 +180,6 @@ nav a.nav-link {
   padding-bottom: 32px;
   background: var(--primary-ltgrey);
   color: var(--primary-light);
-
 }
 
 /*********** PROJECTS ***********/
@@ -302,6 +300,7 @@ li.dot {
 .dots {
   fill: var(--primary-purple) !important;
 }
+
 
 
 

@@ -1,0 +1,42 @@
+.projects h1,
+h3 {
+    color: var(--primary-purple);
+    text-align: center;
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.projects h1 {
+    padding-bottom: 60px;
+}
+
+.projects {
+    background: var(--primary-light);
+    padding: 48px 0;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.myCarousel {
+    background: var(--primary-light);
+    color: var(--primary-grey);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel .slide img {
+    height: 550px;
+    width: 600px;
+}
+
+.carousel .slide {
+    background: var(--primary-light);
+}
+
+.myCarousel .fa-link,
+.fa-github-square {
+    color: var(--primary-purple);
+    font-size: 40px;
+    margin: 10px;
+    padding-bottom: 20px;
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0
+}

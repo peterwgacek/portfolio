@@ -1,0 +1,33 @@
+.logo {
+    width: 40px;
+}
+
+nav a.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+
+}
+
+.navbar-nav>li>a {
+    margin-right: 12px;
+    border-top: 3px solid var(--primary-light);
+}
+
+.navbar-brand {
+    max-width: 275px;
+    padding: 0 !important;
+    height: 45px !important;
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a:focus {
+    border-top: 3px solid var(--primary-green);
+}
+
+.navbar-nav>li>a:hover {
+    border-top: 3px solid var(--primary-green);
+    transition: .2s ease-in-out;
+}
