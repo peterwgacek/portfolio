@@ -3,15 +3,15 @@ import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
 import './Design.css';
 
-import genresmashlogo from '../assets/designs/genresmashlogo.png'
-import vogologo from '../assets/designs/vogologo.png'
-import marvelassemblelogo from '../assets/designs/marvelassemblelogo.png'
-import jurassicpong from '../assets/designs/jurassicpong.png'
-import masterofnumbers from '../assets/designs/masterofnumbers.png'
-import nutmilklabel from '../assets/designs/nutmilklabel.png'
-import IOUXmascard from '../assets/designs/IOUXmascard.png'
-import cocodoop from '../assets/designs/cocodoop.png'
-import bartrider from '../assets/designs/bartrider.png'
+import genresmashlogo from '../../assets/designs/genresmashlogo.png'
+import vogologo from '../../assets/designs/vogologo.png'
+import marvelassemblelogo from '../../assets/designs/marvelassemblelogo.png'
+import jurassicpong from '../../assets/designs/jurassicpong.png'
+import masterofnumbers from '../../assets/designs/masterofnumbers.png'
+import nutmilklabel from '../../assets/designs/nutmilklabel.png'
+import IOUXmascard from '../../assets/designs/IOUXmascard.png'
+import cocodoop from '../../assets/designs/cocodoop.png'
+import bartrider from '../../assets/designs/bartrider.png'
 
 
 const Design = () => {

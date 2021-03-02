@@ -1,24 +1,24 @@
 import React from 'react';
 import './Skills.css';
 //FRONT END
-import html5logo from '../assets/logos/html5logo.png';
-import css3logo from '../assets/logos/css3logo.png';
-import jslogo from '../assets/logos/jslogo.png';
-import reactlogo from '../assets/logos/reactlogo.png';
+import html5logo from '../../assets/logos/html5logo.png';
+import css3logo from '../../assets/logos/css3logo.png';
+import jslogo from '../../assets/logos/jslogo.png';
+import reactlogo from '../../assets/logos/reactlogo.png';
 //MISC
-import rubylogo from '../assets/logos/rubylogo.png';
-import reduxlogo from '../assets/logos/reduxlogo.png';
-import npmlogo from '../assets/logos/npmlogo.png';
-import nodelogo from '../assets/logos/nodelogo.png';
+import rubylogo from '../../assets/logos/rubylogo.png';
+import reduxlogo from '../../assets/logos/reduxlogo.png';
+import npmlogo from '../../assets/logos/npmlogo.png';
+import nodelogo from '../../assets/logos/nodelogo.png';
 //BACKEND
-import sqllogo from '../assets/logos/rubylogo.png';
-import railslogo from '../assets/logos/railslogo.png';
-import postgreslogo from '../assets/logos/postgreslogo.png';
-import mongologo from '../assets/logos/mongologo.png';
+import sqllogo from '../../assets/logos/rubylogo.png';
+import railslogo from '../../assets/logos/railslogo.png';
+import postgreslogo from '../../assets/logos/postgreslogo.png';
+import mongologo from '../../assets/logos/mongologo.png';
 //DESIGN
-import gimplogo from '../assets/logos/gimplogo.png';
-import pslogo from '../assets/logos/pslogo.png';
-import procreatelogo from '../assets/logos/procreatelogo.png';
+import gimplogo from '../../assets/logos/gimplogo.png';
+import pslogo from '../../assets/logos/pslogo.png';
+import procreatelogo from '../../assets/logos/procreatelogo.png';
 
 
 

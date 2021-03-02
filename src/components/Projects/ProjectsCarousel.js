@@ -1,11 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import morementum from '../assets/projects/morementum.png';
-import curse from '../assets/projects/curse.png';
-import marvelassemble from '../assets/projects/marvelassemble.png';
-import vogo from '../assets/projects/vogo.png';
-import genresmash from '../assets/projects/genresmash.png';
+import morementum from '../../assets/projects/morementum.png';
+import curse from '../../assets/projects/curse.png';
+import marvelassemble from '../../assets/projects/marvelassemble.png';
+import vogo from '../../assets/projects/vogo.png';
+import genresmash from '../../assets/projects/genresmash.png';
 import './Projects.css';
 
 const ProjectsCarousel = () => {

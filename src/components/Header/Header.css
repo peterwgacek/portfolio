@@ -6,7 +6,7 @@
 
 .header-wrapper {
     position: relative;
-    background: url(./assets/Wallpaper-tile.png) repeat;
+    background: url(../../assets/Wallpaper-tile.png) repeat;
     background-size: 4px;
     background-position: center;
     height: 100vh;

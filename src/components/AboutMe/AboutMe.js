@@ -1,5 +1,5 @@
 import React from 'react';
-import Mewg from '../assets/Mewg.png';
+import Mewg from '../../assets/Mewg.png';
 import './AboutMe.css';
 
 const AboutMe = () => {
