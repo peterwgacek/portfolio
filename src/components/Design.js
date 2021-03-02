@@ -1,6 +1,7 @@
 import React from 'react';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
+import './Design.css';
 
 import genresmashlogo from '../assets/designs/genresmashlogo.png'
 import vogologo from '../assets/designs/vogologo.png'

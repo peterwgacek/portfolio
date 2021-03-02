@@ -1,0 +1,133 @@
+.design-wrapper {
+    background: var(--primary-ltgrey);
+}
+
+.design-wrapper h1 {
+    color: var(--primary-blue);
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.design-image {
+    width: 300px;
+    height: 250px;
+    border: 3px solid var(--primary-blue);
+}
+
+.design-image-box {
+    position: relative;
+    margin: 16px;
+}
+
+.fa-search-plus {
+    position: absolute;
+    opacity: 0;
+    margin-left: -175px;
+    margin-top: 100px;
+    font-size: 70px;
+    color: var(--primary-blue);
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+}
+
+.design-image-box:hover .fa-search-plus {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.control-dots>.dot {
+    fill: var(--primary-purple) !important;
+
+}
+
+ul.control-dots {
+    fill: var(--primary-purple) !important;
+}
+
+li.dot-selected {
+    fill: var(--primary-purple) !important;
+}
+
+.dot {
+    fill: var(--primary-purple) !important;
+}
+
+li.dot {
+    fill: var(--primary-purple) !important;
+}
+
+.carousel .control-dots .dot {
+    fill: var(--primary-purple) !important;
+}
+
+
+.carousel .control-dots {
+    fill: var(--primary-purple) !important;
+}
+
+.dots {
+    fill: var(--primary-purple) !important;
+}
+
+
+
+
+/****** OVERFLOW ******/
+
+.overflow {
+    position: absolute;
+    opacity: 50%;
+    background: var(--primary-light);
+    width: 300px;
+    height: 250px;
+    top: 0;
+    border: 3px solid var(--primary-blue);
+    cursor: pointer;
+
+}
+
+.design-image-box:hover .overflow {
+    opacity: 0;
+    transition: 0.3s eae-in-out;
+}
+
+
+/****** POPUP BOX ******/
+
+.design-img-popup {
+    width: 575px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding: .8px;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+    .design-img-popup {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media(max-height: 640px) {
+
+    .image-box-wrapper {
+        height: 100% !important;
+    }
+
+    .design-img-popup {
+        width: 50%;
+        height: 55%;
+    }
+}
+
+@media(max-height: 280px) {
+
+    .image-box-wrapper {
+        height: 100% !important;
+    }
+
+    .design-img-popup {
+        width: 50%;
+    }
+}

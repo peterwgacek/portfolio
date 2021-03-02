@@ -1,0 +1,78 @@
+@media(max-width: 768px) {
+    .contact .container {
+        padding: 0 16px;
+
+    }
+
+    .contact {
+        padding: 0
+    }
+}
+
+.contact {
+    position: relative;
+    background: url(./assets/Wallpaper-tile.png) repeat;
+    background-size: 4px;
+    background-position: center;
+    height: 90vh;
+}
+
+.contact h1 {
+    color: var(--primary-gold);
+    text-shadow: 1.5px 0 0 #000000, 0 -1.5px 0 #000000, 0 1.5px 0 #000000, -1.5px 0 0 #000000;
+    padding-top: 100px;
+
+}
+
+.contact-btn {
+    background: none;
+    margin: 16px 0 0 0;
+    width: 100%;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid var(--primary-ltgrey);
+    border-radius: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+    color: var(--primary-gold) !important;
+    margin-bottom: 14px;
+    padding-left: 0 !important;
+
+}
+
+::placeholder {
+    color: var(--primary-light) !important;
+}
+
+.contact .container {
+    padding: 64px 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    background: transparent;
+    color: var(--primary-gold);
+    border-bottom: 2px solid var(--primary-gold);
+}
+
+
+.contact textarea {
+    height: 110px !important;
+}
+
+.error-message {
+    color: var(--primary-grey);
+    background-color: var(--primary-light);
+}
+
+.succes-message {
+    font-weight: 900;
+    color: var(--primary-light);
+}
